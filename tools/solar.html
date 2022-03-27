@@ -65,17 +65,17 @@
                         border-width: 2px; text-align: center; border-color: rgb(78, 78, 78); border-radius: 5px;">English</div>
                         <div class="col"></div>
                         </div>
-                        <p id="desc" align = 'right'>
-                            النظام الشمسي أو المجموعة الشمسية أو المنظومة الشمسية هي النظام الكوكبي الذي يتكون من الشمس وجميع ما يَدور حولها من أجرام بما في ذلك الأرض والكواكب الأخرى. يَشمل النظام الشمسي أجراماً أخرى أصغر حجماً هي الكواكب القزمة والكويكبات والنيازك والمذنبات، إضافة إلى سحابة رقيقة من الغاز والغبار تعرف بالوسط بين الكوكبي. تدور أيضاً حول الشمس ولكن بشكل غير مباشر، توابع الكواكب التي تسمى الأقمار الطبيعية أو اختصاراً الأقمار، والتي يَبلغ عددها أكثر من 150 قمرًا معروفًا في النظام الشمسي، معظمها تدور حول العمالقة الغازية. اثنين من هذه الأقمار أكبر حجماً من الكوكب عطارد.
+                        <p id="desc" align = 'right' style="max-height: 90%; font-size: 90%;">
+                            النظام الشمسي أو المجموعة الشمسية أو المنظومة الشمسية هي النظام الكوكبي الذي يتكون من الشمس وجميع ما يَدور حولها من أجرام بما في ذلك الأرض والكواكب الأخرى. يَشمل النظام الشمسي أجراماً أخرى أصغر حجماً هي الكواكب القزمة والكويكبات والنيازك والمذنبات، إضافة إلى سحابة رقيقة من الغاز والغبار تعرف بالوسط بين الكوكبي.
                             <br> <br>
                             كواكب المجموعة الشمسية هي: <br>
-                            1- عطارد  <br>
-                            2- الزهرة  <br>
-                            3- الأرض  <br>
-                            4- المريخ  <br>
-                            5- المشتري  <br>
-                            6- زحل  <br>
-                            7- أورانوس  <br>
+                            1- عطارد                 
+                            2- الزهرة       <br>
+                            3- الأرض        
+                            4- المريخ       <br>
+                            5- المشتري      
+                            6- زحل          <br>
+                            7- أورانوس          
                             8- نبتون  <br>
                             </p>
                     </td>
@@ -88,21 +88,21 @@
         const ar = document.getElementById('lang-ar')
         const en = document.getElementById('lang-en')
         const desc = document.getElementById('desc')
-        desc.style = ' margin-left: 1%; margin-right: 1%; font-family: "Harmattan"; font-size: 100%'
+        desc.style = ' margin-left: 1%; margin-right: 1%; font-family: "Harmattan";'
         ar.onclick = function() {
             desc.style.direction='rtl'
             desc.style.textAlign = 'right'
             desc.innerHTML = `
-            النظام الشمسي أو المجموعة الشمسية أو المنظومة الشمسية هي النظام الكوكبي الذي يتكون من الشمس وجميع ما يَدور حولها من أجرام بما في ذلك الأرض والكواكب الأخرى. يَشمل النظام الشمسي أجراماً أخرى أصغر حجماً هي الكواكب القزمة والكويكبات والنيازك والمذنبات، إضافة إلى سحابة رقيقة من الغاز والغبار تعرف بالوسط بين الكوكبي. تدور أيضاً حول الشمس ولكن بشكل غير مباشر، توابع الكواكب التي تسمى الأقمار الطبيعية أو اختصاراً الأقمار، والتي يَبلغ عددها أكثر من 150 قمرًا معروفًا في النظام الشمسي، معظمها تدور حول العمالقة الغازية. اثنين من هذه الأقمار أكبر حجماً من الكوكب عطارد.
+            النظام الشمسي أو المجموعة الشمسية أو المنظومة الشمسية هي النظام الكوكبي الذي يتكون من الشمس وجميع ما يَدور حولها من أجرام بما في ذلك الأرض والكواكب الأخرى. يَشمل النظام الشمسي أجراماً أخرى أصغر حجماً هي الكواكب القزمة والكويكبات والنيازك والمذنبات، إضافة إلى سحابة رقيقة من الغاز والغبار تعرف بالوسط بين الكوكبي.
             <br> <br>
             كواكب المجموعة الشمسية هي: <br>
-            1- عطارد  <br>
-            2- الزهرة  <br>
-            3- الأرض  <br>
-            4- المريخ  <br>
-            5- المشتري  <br>
-            6- زحل  <br>
-            7- أورانوس  <br>
+            1- عطارد                 
+            2- الزهرة       <br>
+            3- الأرض        
+            4- المريخ       <br>
+            5- المشتري      
+            6- زحل          <br>
+            7- أورانوس          
             8- نبتون  <br>
             `
         }
@@ -110,16 +110,16 @@
             desc.style.direction='ltr'
             desc.style.textAlign = 'left'
             desc.innerHTML= `
-            The solar system is the planetary system that consists of the sun and all the bodies that revolve around it, including the earth and other planets. The solar system includes other smaller objects, dwarf planets, asteroids, meteorites and comets, in addition to a thin cloud of gas and dust known as the interplanetary medium. They also revolve around the sun but indirectly, the satellites of the planets called natural satellites or moons for short, of which there are more than 150 known moons in the solar system, most of them revolve around gas giants. Two of these moons are larger than the planet Mercury.
+            The solar system is the planetary system that consists of the sun and all the bodies that revolve around it, including the earth and other planets. The solar system includes other smaller objects, dwarf planets, asteroids, meteorites and comets, in addition to a thin cloud of gas and dust known as the interplanetary medium.
             <br> <br>
             The planets of the solar system are: <br>
-            1- Mercury <br>
-            2- Venus <br>
-            3- Earth <br>
-            4- Mars <br>
-            5- Jupiter <br>
-            6- Saturn <br>
-            7- Uranus <br>
+            1- Mercury          
+            2- Venus            <br>
+            3- Earth            
+            4- Mars             <br>
+            5- Jupiter          
+            6- Saturn           <br>
+            7- Uranus           
             8- Neptune <br>
             `
         }
