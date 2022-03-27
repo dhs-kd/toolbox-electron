@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require("electron");
+const { app, BrowserWindow, webFrame } = require("electron");
 
 app.whenReady().then(createWindow);
 
@@ -8,6 +8,7 @@ function createWindow() {
     height: 768,
     resizable: true,
   });
+
   win.removeMenu()
   win.loadFile("index.html");
 }

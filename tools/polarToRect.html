@@ -62,7 +62,7 @@
                         <div id="info"></div>
                     </td>
                     <td id="output">
-                        <div id="output-plot" style="max-width: 90%; max-height: 90%;"></div>
+                        <div id="output-plot"></div>
                     </td>
                 </tr>
             </table>
@@ -99,7 +99,7 @@
                 info.removeChild(child)
             }
             let elem = document.createElement('span')
-            elem.innerHTML = "<b>X</b> = " + x + "         <b>Y</b> = " + y + "<br><b>Sin</b> = " + sin + "      <b>Cos</b> = "+ cos+ "<br><b>Tan</b> = "+tan
+            elem.innerHTML = "<b>X</b> = " + x + "      <b>Y</b> = " + y + "<br><b>Sin</b> = " + sin + "        <b>Cos</b> = "+ cos+ "<br><b>Tan</b> = "+tan
 
             info.appendChild(elem)
 
@@ -120,6 +120,7 @@
         }
     </script>
     <script src="../assets/libs/bootstrap.bundle.min.js"></script>
+    
 </body>
 
 </html>
