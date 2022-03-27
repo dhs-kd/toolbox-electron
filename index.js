@@ -8,5 +8,6 @@ function createWindow() {
     height: 768,
     resizable: true,
   });
+  win.removeMenu();
   win.loadFile("index.html");
 }
